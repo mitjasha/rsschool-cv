@@ -11,8 +11,8 @@ Linkedin: [www.linkedin.com/in/dzmitry-shakhrai](www.linkedin.com/in/dzmitry-sha
 ***
 ### Skills
  - Pyton
- - JavaScript 
- - C#
+ - C# 
+ - JavaScript
  - Machine Learning 
  - Deep Learning
  - Django
@@ -21,8 +21,30 @@ Linkedin: [www.linkedin.com/in/dzmitry-shakhrai](www.linkedin.com/in/dzmitry-sha
  - Git 
 ***
 ### Code examples
- ```
+*Where my anagrams at? (Python)*
+```
+def anagrams(word, words):
+    out = []
+    for i in words:
+        if sum(map(ord, word)) == sum(map(ord, i)): 
+            out.append(i)
+    return out
+```
+*Reversed Strings (C#)*
+```
+using System;
 
+public static class Kata
+{
+  public static string Solution(string str) 
+  {
+    string outlet = "";
+            for (int i = str.Length - 1; i >= 0; i--)
+                outlet += str[i];
+                
+    return outlet;
+  }
+}
 ```
 ```
 
