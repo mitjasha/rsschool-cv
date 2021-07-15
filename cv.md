@@ -7,7 +7,7 @@ Skype: mitjasha\
 Linkedin: [www.linkedin.com/in/dzmitry-shakhrai](www.linkedin.com/in/dzmitry-shakhrai)
 ***
 ### Summary
-My strengths are hardworking and perseverance. This quallities will help me to achieve professional success in front-end development. At the moment I don’t have any real experience in this sphere but I have training projects on my GitHub account.
+— Experience in data science with use machine learning algorithms. Presented the analysis results. Keep up-to-date with changes in the industry. Strong background in theoretical research. Over 9 years of experience in the field of CAD/CAE field. Performed FEA, CFD and thermal analysis for liquid medium. Worked with topological and parametric model optimization. Made a research on parallel computing technologies.
 ***
 ### Skills
  - Pyton
