@@ -194,8 +194,9 @@ img{
 
 .home_img{
   width: 120px;
-  height: auto;
+  height: 120px;
   border-radius: 50%;
+  border: 2px solid;
   justify-self: center;
   margin-bottom: var(--mb-1);
 }
@@ -225,6 +226,28 @@ img{
   margin-right: .25rem;
 }
 
+/* STYLE */
+
+.style_container{
+  grid-template-columns: max-content;
+  gap: 1rem;
+}
+
+.social_link{
+  display: inline-flex;
+  align-items: center;
+  font-size: var(--small-font-size);
+  color: var(--text-color);
+}
+
+.social_link:hover{
+  color: var(--title-color);
+}
+
+.social_icon{
+  font-size: 1.2rem;
+  margin-right: .25rem;
+}
 
 /* 
 body {
