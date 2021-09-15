@@ -178,6 +178,52 @@ img{
   color: var(--title-color);
 }
 
+/* HOME */
+.home{
+  position: relative;
+}
+
+.home_container{
+  gap: 3rem;
+}
+
+.home_data{
+  gap: .5rem;
+  text-align: center;
+}
+
+.home_img{
+  width: 120px;
+  height: auto;
+  border-radius: 50%;
+  justify-self: center;
+  margin-bottom: var(--mb-1);
+}
+
+.home_title{
+  font-size: var(--h1-font-size);
+  margin-bottom: .5rem;
+}
+
+.home_profession{
+  font-size: var(--normal-font-size);
+  margin-bottom: var(--mb-1);
+}
+
+.homme_address{
+  gap: 1rem;
+}
+
+.home_information{
+  display: flex;
+  align-items: center;
+  font-size: var(--small-font-size);
+}
+
+.home_icon{
+  font-size: 1.2rem;
+  margin-right: .25rem;
+}
 
 
 /* 
