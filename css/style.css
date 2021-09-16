@@ -302,7 +302,20 @@ img{
 }
 
 /* Skills */
+.skills_content{
+  gap: 0;
+  grid-template-columns: repeat(2, 1fr);
+}
 
+.skills_name{
+  display: flex;
+  align-items: center;
+  margin-bottom: var(--mb-3);
+}
+
+.skills_circle{
+  margin-right: .75rem;
+}
 /* 
 body {
   margin: 20px 20px;
