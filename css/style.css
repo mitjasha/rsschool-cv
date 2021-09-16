@@ -323,6 +323,16 @@ img{
 .skills_circle{
   margin-right: .75rem;
 }
+
+/* Certificates */
+.certificate_title{
+  font-size: var(--h3-font-size);
+  margin-bottom: var(--mb-1);
+}
+
+
+
+
 /* 
 body {
   margin: 20px 20px;
