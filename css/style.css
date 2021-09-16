@@ -255,15 +255,18 @@ img{
 }
 
 /* Education */
-.education_content{
+.education_content,
+.experience_content{
   display: flex;
 }
 
-.education_time{  
+.education_time,
+.experience_time{  
   padding-right: 1rem;
 }
 
-.education_rounder{
+.education_rounder,
+.experience_rounder{
   position: relative;
   display: block;
   width: 16px;
@@ -273,7 +276,8 @@ img{
   border-radius: 50%;
 }
 
-.education_line{
+.education_line,
+.experience_line{
   display: block;
   background-color: var(--text-color);
   width: 2px;
@@ -281,18 +285,21 @@ img{
   transform: translate(7px, 0);
 }
 
-.education_data{
+.education_data,
+.experience_data{
   gap: .5rem;
 }
 
-.education_title{
+.education_title,
+.experience_title{
   font-size: var(--h3-font-size);
   text-transform: uppercase;
   font-weight: var(--font-semi-bold);
   color: var(--text-color);
 }
 
-.education_studies{
+.education_studies,
+.experience_compaby{
   font-size: var(--small-font-size);
   color: var(--title-color);
 }
