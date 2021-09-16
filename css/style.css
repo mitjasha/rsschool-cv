@@ -254,6 +254,55 @@ img{
   text-align: center;
 }
 
+/* Education */
+.education_content{
+  display: flex;
+}
+
+.education_time{  
+  padding-right: 1rem;
+}
+
+.education_rounder{
+  position: relative;
+  display: block;
+  width: 16px;
+  height: 16px;
+  background-color: var(--text-color);
+  margin-top: .15rem;
+  border-radius: 50%;
+}
+
+.education_line{
+  display: block;
+  background-color: var(--text-color);
+  width: 2px;
+  height: 110%;
+  transform: translate(7px, 0);
+}
+
+.education_data{
+  gap: .5rem;
+}
+
+.education_title{
+  font-size: var(--h3-font-size);
+  text-transform: uppercase;
+  font-weight: var(--font-semi-bold);
+  color: var(--text-color);
+}
+
+.education_studies{
+  font-size: var(--small-font-size);
+  color: var(--title-color);
+}
+
+.education_year{
+  font-size: var(--smaller-font-size);
+}
+
+/* Skills */
+
 /* 
 body {
   margin: 20px 20px;
