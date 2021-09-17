@@ -284,7 +284,23 @@
                   </a>
                 </figure>
               </div>              
-            </div>              
+            </div>
+            <h3>Code example</h2>
+            <div class="code_example bd-grid">
+              <pre><code class="code_text" data-language="javascript"><span class="cm-keyword">function</span> <span class="cm-def">nicknameGenerator</span>(<span class="cm-def">name</span>){
+    <span class="cm-keyword">if</span> (<span class="cm-variable">name</span>.<span class="cm-property">length</span> <span class="cm-operator">&lt;=</span> <span class="cm-number">3</span>){
+        <span class="cm-keyword">return</span> <span class="cm-string">'Error: Name too short'</span>;
+    };
+
+    <span class="cm-keyword">let</span> <span class="cm-def">vowels</span> <span class="cm-operator">=</span> [<span class="cm-string">"a"</span>,<span class="cm-string">"e"</span>,<span class="cm-string">"i"</span>,<span class="cm-string">"o"</span>,<span class="cm-string">"u"</span>];
+    
+    <span class="cm-keyword">if</span> (<span class="cm-variable">vowels</span>.<span class="cm-property">indexOf</span>(<span class="cm-variable">name</span>[<span class="cm-number">2</span>]) <span class="cm-operator">!=</span> <span class="cm-operator">-</span><span class="cm-number">1</span>){
+        <span class="cm-keyword">return</span> <span class="cm-variable">name</span>.<span class="cm-property">slice</span>(<span class="cm-number">0</span>,<span class="cm-number">4</span>);
+    };
+
+    <span class="cm-keyword">return</span> <span class="cm-variable">name</span>.<span class="cm-property">slice</span>(<span class="cm-number">0</span>,<span class="cm-number">3</span>);
+}</code></pre>
+            </div>           
           </section>
 
           <!--========== LANGUAGES ==========-->
