@@ -130,7 +130,7 @@ img{
     border-radius: 1rem 1rem 0 0;
     z-index: var(--z-fixed);
     transition: .3s;
-  }  
+  }    
 }
 
 .nav_logo,
@@ -347,6 +347,12 @@ img{
   border-radius: 50%;
   margin-right: .75rem;
 }
+/* Code  */
+.code_container{
+  gap: 0;
+  grid-template-columns: repeat(2, 1fr);
+}
+
 
 /* Interests */
 .interests_container{
@@ -398,6 +404,10 @@ img{
     grid-template-columns: repeat(2, 1fr);
     gap: 1rem .5rem;
   }
+
+  .code_container{
+    grid-template-columns: (2, 1fr);
+  }
 }
 
 /* Large screen  */
@@ -439,6 +449,20 @@ img{
 
   .home_container{
     gap: 1.5rem;
+  }
+
+  .code_container{
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .languages_content{
+    grid-template-columns: repeat(3, max-content);
+    column-gap: 3.5rem;
+  }
+
+  .interests_container{    
+    grid-template-columns: repeat(4, max-content);
+    column-gap: 3.5rem;
   }
 }
 /* 
