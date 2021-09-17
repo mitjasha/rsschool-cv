@@ -573,4 +573,8 @@ pre {
   height: 30px;
 }
 
+.hidden-title {
+  display: none;
+}
+
 
