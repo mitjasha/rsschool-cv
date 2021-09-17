@@ -567,7 +567,9 @@ pre {
   justify-content: space-evenly;
   align-items: center;
 }
-
+.main_text{
+  color: var(--text-color);
+}
 .rsschool-logo {
   height: 30px;
 }
